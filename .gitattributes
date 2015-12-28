@@ -1,0 +1,29 @@
+* encoding=utf-8
+# Auto detect text files and perform LF normalization
+*        text=auto eol=lf
+
+*.java   text diff=java
+*.jsp    text
+*.html   text diff=html
+*.css    text
+*.js     text
+*.sql    text
+*.xml    text
+*.sh     text
+*.less   text
+
+/**/compressed/*  binary
+/**/jstmp/*  binary
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.eot  binary
+*.svg  binary
+*.ttf  binary
+*.woff  binary
+*.woff2  binary
+*.otf  binary
+*.lic  binary
+*.ico binary
+*.dat binary
+*.so binary
