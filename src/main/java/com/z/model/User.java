@@ -1,4 +1,4 @@
-package com.huajtech.model;
+package com.z.model;
 
 public class User {
 	private String id;

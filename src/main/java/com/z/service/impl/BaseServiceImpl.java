@@ -1,8 +1,8 @@
-package com.huajtech.service.impl;
+package com.z.service.impl;
 
-import com.huajtech.dao.MyBatisDao;
-import com.huajtech.service.BaseService;
-import com.huajtech.utils.Page;
+import com.z.dao.MyBatisDao;
+import com.z.service.BaseService;
+import com.z.utils.Page;
 
 import java.util.HashMap;
 import java.util.List;
@@ -55,8 +55,8 @@ public abstract class BaseServiceImpl<T> implements BaseService<T> {
 	 * @param definition
 	 * @throws BasicException 异常信息
 	 */
-	public void save(T definition){
-		myBatisDao.save(getEntityName() + ".save", definition);
+	public void save(T object){
+		myBatisDao.save(getEntityName() + ".save", object);
 	}
 
 	/**
@@ -64,8 +64,8 @@ public abstract class BaseServiceImpl<T> implements BaseService<T> {
 	 * @param definition
 	 * @throws BasicException 异常信息
 	 */
-	public void save(List<T> definition) {
-		for(T t: definition){
+	public void save(List<T> objects) {
+		for(T t: objects){
 			this.save(t);
 		}
 	}
@@ -75,8 +75,8 @@ public abstract class BaseServiceImpl<T> implements BaseService<T> {
 	 * @param definition
 	 * @throws BasicException 异常信息
 	 */
-	public void update(T definition) {
-		myBatisDao.update(getEntityName() + ".update", definition);
+	public void update(T object) {
+		myBatisDao.update(getEntityName() + ".update", object);
 	}
 	
 	/**

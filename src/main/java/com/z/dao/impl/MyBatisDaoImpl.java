@@ -1,7 +1,7 @@
-package com.huajtech.dao.impl;
+package com.z.dao.impl;
 
-import com.huajtech.dao.MyBatisDao;
-import com.huajtech.utils.Page;
+import com.z.dao.MyBatisDao;
+import com.z.utils.Page;
 
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 

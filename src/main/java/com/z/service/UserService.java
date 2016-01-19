@@ -1,6 +1,6 @@
-package com.huajtech.service;
+package com.z.service;
 
-import com.huajtech.model.User;
+import com.z.model.User;
 
 public interface UserService extends BaseService<User> {
 

@@ -1,7 +1,7 @@
-package com.huajtech.service.impl;
+package com.z.service.impl;
 
-import com.huajtech.model.User;
-import com.huajtech.service.UserService;
+import com.z.model.User;
+import com.z.service.UserService;
 
 import org.springframework.stereotype.Service;
 
@@ -10,6 +10,6 @@ public class UserServiceImpl extends BaseServiceImpl<User> implements UserServic
 
     @Override
     public String getEntityName() {
-        return "com.huajtech.model.User";
+        return "com.z.model.User";
     }
 }

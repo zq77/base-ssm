@@ -1,9 +1,9 @@
-package com.huajtech.controller;
+package com.z.controller;
 
-import com.huajtech.model.User;
-import com.huajtech.service.UserService;
-import com.huajtech.utils.Page;
-import com.huajtech.utils.PageUtil;
+import com.z.model.User;
+import com.z.service.UserService;
+import com.z.utils.Page;
+import com.z.utils.PageUtil;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Controller;

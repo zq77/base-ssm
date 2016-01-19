@@ -1,6 +1,6 @@
-package com.huajtech.dao;
+package com.z.dao;
 
-import com.huajtech.utils.Page;
+import com.z.utils.Page;
 
 import org.springframework.stereotype.Service;
 

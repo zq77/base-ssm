@@ -1,4 +1,4 @@
-package com.huajtech.utils;
+package com.z.utils;
 
 public class Page {
 

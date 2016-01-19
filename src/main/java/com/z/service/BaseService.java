@@ -1,6 +1,6 @@
-package com.huajtech.service;
+package com.z.service;
 
-import com.huajtech.utils.Page;
+import com.z.utils.Page;
 
 import java.util.List;
 import java.util.Map;
@@ -33,19 +33,19 @@ public interface BaseService<T> {
 	 * 添加定义
 	 * @param definition
 	 */
-	public void save(T definition);
+	public void save(T object);
 
 	/**
 	 * 批量添加多个定义
 	 * @param definition
 	 */
-	public void save(List<T> definition);
+	public void save(List<T> objects);
 	
 	/**
 	 * 修改定义
 	 * @param definition
 	 */
-	public void update(T definition);
+	public void update(T object);
 	
 	
 	/**

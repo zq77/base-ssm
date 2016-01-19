@@ -3,7 +3,7 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- 这里的名字就是要被读取的文件标示的名字 -->
-<mapper namespace="com.huajtech.model.User">
+<mapper namespace="com.z.model.User">
 	
 	<resultMap type="User" id="userMap">
 		<id column="id" property="id"/>
